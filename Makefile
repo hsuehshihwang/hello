@@ -3,7 +3,8 @@ srcs=hello.c
 CFLAGS+=-Wall
 
 all: 
-  @ $(CC) $(CFLAGS) -o $(target) $(srcs)
+    @ $(CC) $(CFLAGS) -o $(target) $(srcs)
 
 clean: 
-  @ rm -rf $(sample)
+    @ rm -rf $(sample)
+
