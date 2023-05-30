@@ -6,5 +6,5 @@ all:
 	@ $(CC) $(CFLAGS) -o $(target) $(srcs)
 
 clean: 
-	@ rm -rf $(sample)
+	@ rm -rf $(target)
 
